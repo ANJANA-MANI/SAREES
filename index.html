@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saree Store</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHYAAAB2CAMAAAAqeZcjAAAAY1BMVEX///8AAAD4+PiFhYXU1NT7+/vt7e309PRgYGDExMTHx8dycnI0NDSjo6NISEji4uJTU1O3t7fc3Nybm5stLS0/Pz+wsLCRkZF7e3sWFhbOzs4aGhoREREoKCghISGLi4tpaWmdsjeTAAADnUlEQVRoge2by7aqOhBFUygBxfAUVPD1/195gAQIpDhjnMbKvQ1XQ9h2poTKSlUlW4iffvq/KAz/C2rbPb9VkXmmKtJ6tB6hwcFQqYv8UWU+UeleSF/UlhYd48ITVVnUNKPKD/VgUelW0N0HVNY2lbKY8gBPPb9X1Lx80hUfU4rWUk3/UaKpyYZKUdp/nLHQLN9S+zgewgpKjV5bKhXjoMdQrHAe9p1dhkuNxR632O84xvQCh3K8wZ4qfQUvQu2a2mWpecVY7OZxD6W5QbvyaYU9Tu4MDmUhnjZ2Du03mBrZ1I8o5h+A1cqSWyGndQHsyl+LOpjE3dw3UKq0H3Zw4rN1j9NqjDMRRVOIJVCsPW1j2VwO4mYGHJm1lvb0SftVoA4m30K68ja16E1Z1PhQrh1sPP0UYChnDpUoMF8ecNiKwSozlXMcNmWwuTHIGpYrS4baz95gvLxhMXVjsR9jkKikNXASuFFpcIaGcslSh3WoGy6o+ouL40GJrgBRSetpB3s3hScIuzfIyqQ2IFeWrjWOOouXuWLkVHtaR7PmKhCWn7fP0rjyB4TlY+oqTWITg1qBAYtNg0bfoNpi4YXDxvOERiUYdw6bzF+jyj43p6FhfZ/WQ1T9deawai6LUEkrG1MnMd3BEowrg83mDOviM6aCuerr/QqjgsGGy4KIcmWnU9OPrDUEqFCWrmHEVu0JayVsG0T9tI2WNPaFwh4crJJWoxe1L+QuQsquUFCh7Gbod/t9o7piLra2kw5UgsGkcda8hbky4xdH6+VeQDHFLH2V3ZgDlX0fF5vYLxe0vcnkrGnYLH+A6q+vi+0yy6lBSatrjkt6rkccoYhrIyjrx6SQpDXj0ovYmlYdJKbKjsFe7WUY4srMMt8XQTJYxh4Syi2H7XNHPa+uefKBPC1ffDWiuSSqLTNUa4otC/Cb1W5yoWMKLM4tCJfLTOLcgnC5zKQ3j0VvtT15LDimIp6KPgDBdc8HPbCHl3iTgscUV/CNQiWqWs0e9gvF8t5I6JMITN6o9YaeRNjpdRL2dEu4442E3b4NuUxKC7mPyrc6RyHXvr9gkUcC+F0vLaBP7XojQX1q16TI+z7qJODaxydwWg+cT+2bFCH35pni1kNM7WykGsEOajF9zkWovSexs1WgBT2mtZvUYIr4WTuG8UCfYT3dqu0brqsbuhgZJNf1V+zr4Hnwpcc0upR4/Y+Go0opV/BjyYw8HPz+6ad/0B8a4SL5l/OQawAAAABJRU5ErkJggg==">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Open+Sans:wght@300&family=Righteous&family=Young+Serif&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body style="font-family: 'Architects Daughter', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Righteous', sans-serif;
+font-family: 'Young Serif', serif;">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Saree Store</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">All</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Saree
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Banarasi</a></li>
+                  <li><a class="dropdown-item" href="#">Ajrakh</a></li>
+                  <li><a class="dropdown-item" href="#">Kanchipuram</a></li>
+                  <li><a class="dropdown-item" href="#">Kuthambullay</a></li>
+                  <li><a class="dropdown-item" href="#">Kalamkarii</a></li>
+                  <li><a class="dropdown-item" href="#">Kerala saree</a></li>
+                  <li><a class="dropdown-item" href="#">Georgtte</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Cart</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./ONAM-BANNER-finaall-1.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-danger fs-2 ">Pudava</h5>
+              <p class="text-danger  fs-3 mb-2">Celebrate this onam with pottu collections.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="Banner-1-1.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-white fs-2">Banarasi</h5>
+              <p class="text-white fs-3" >It's time for Banarasii</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img height="800px" src="https://miriyam.store/cdn/shop/files/WEBbanner03a_8cda4d6f-d900-4c6c-b714-51351b6f500f_1400x.jpg?v=1663769493" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-white fs-2">Dashapushpamm </h5>
+              <p class="text-white fs-3">Desi Florals in Iconic Designs</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+
+<!-- Button trigger modal -->
+
+  
+  <!-- Modal1 -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Fashion Booms Banarasi Silk Traditional Saree For Women (Pink, FS)</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSTgXNvPwH8GnHB4507ruJFYRed7aECrZr-zf6-_0ufwLpvmF5ES4o6titEoCU4kuodmUr5oaNqOcj78qQZVCR3gOjeUAr5dq_xF-tB4cNh">
+            <h5>Price ₹10,500</h5>
+        </div>
+        <div class="modal-footer">
+         
+          <button type="button" class="btn btn-primary">add</button>
+          <button type="button" class="btn btn-primary">wishlist</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal2 -->
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel2">Fashion Booms Banarasi Silk Traditional Saree For Women (Pink, FS)</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        
+    <img src="data:image/jpeg;base64,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" width="200px" height="200px">
+    <h3>Price ₹10,500</h3>
+        </div>
+        <div class="modal-footer">
+         
+          <button type="button" class="btn btn-primary">add</button>
+          <button type="button" class="btn btn-primary">wishlist</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<section id="All">
+    <div class="contaier bg-light w-100 m-5">
+
+        <div class="row p-1 mb-1">
+        <div class="col-1"></div>
+        <div class="col-5">
+
+            <div class="card">
+                <h5 class="card-header bg-dark text-white">Banarasi</h5>
+                <div class="card-body">
+                    <img   width="500px" height="400px" src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSTgXNvPwH8GnHB4507ruJFYRed7aECrZr-zf6-_0ufwLpvmF5ES4o6titEoCU4kuodmUr5oaNqOcj78qQZVCR3gOjeUAr5dq_xF-tB4cNh">
+                  <h5 class="card-title"></h5>
+                  
+                <p class="card-text">"Pure Banarasi sarees are an unmatched symbol of exquisite artistry. The Mughals were the first ones to bring this exceptional craftsmanship to India.."</p>
+                 
+                <a href="#" class="btn btn-primary">View more</a>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Buy
+                  </button>
+                </div>
+              </div>
+        </div>
+        <div class="col-5">
+            <div class="card">
+                <h5 class="card-header bg-dark text-white">Kanchipuram</h5>
+                <div class="card-body">
+                    <img src="https://mir-s3-cdn-cf.behance.net/projects/808/e770ad159530643.Y3JvcCw2NDM1LDUwMzMsMCww.jpg" width="500px" height="400px">
+                  <h5 class="card-title"></h5>
+                  <p class="card-text">"The Kanchipuram silk sari is a type of silk sari made in the Kanchipuram region in Tamil Nadu, India. These saris are worn as bridal & special occasion saris by most women in Tamil Nadu, Kerala, Karnataka & Andhra Pradesh."</p>
+                  <a href="#" class="btn btn-primary">View more</a>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                    Buy
+                  </button>
+                </div>
+              </div>
+        </div>
+        </div>
+        <div class="col-1"></div>
+   
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-5">
+             <div class="card">
+            <h5 class="card-header bg-dark text-white">Kerala Saree</h5>
+            <div class="card-body">
+                <img src="https://pranaah.com/wp-content/uploads/2023/08/p2.png"width="500px" height="400px">
+              <h5 class="card-title"></h5>
+              <p class="card-text">Kerala Sarees are one of the most beautiful dresses ever created by human hands. They have been worn since ancient times and continue to be popular today.</p>
+              <a href="#" class="btn btn-primary">View more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-5">
+             <div class="card">
+                <h5 class="card-header bg-dark text-white">Ajrakh</h5>
+                <div class="card-body ">
+                    <img  width="500px" height="400px" src="https://www.sundariihandmade.com/cdn/shop/collections/DSC_0877.jpg?v=1602754859&width=1400">
+                  <h5 class="card-title"></h5>
+                  <p class="card-text">Ajrakh is a laborious craft with hand block printing done on both sides of the fabric. It takes around 20 days to make authentic ajrakh.</p>
+                  <a href="#" class="btn btn-primary">View more</a>
+                </div>
+              </div></div>
+        
+        <div class="col-1"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-5"></div>
+        <div class="col-5"></div>
+        <div class="col-1"></div>
+    </div>
+    </div>
+</div>
+</section>
+
+
+<div class="card">
+    <div class="card-header">
+      Saree Love
+    </div>
+    <div class="card-body">
+      <blockquote class="blockquote mb-0">
+        <img src="./img2.jpg">
+        <p>The ways they're made and worn are dazzling and diverse. The word “sari” means “strip of cloth” in Sanskrit. But for the Indian women—and a few men—who have been wrapping themselves in silk, cotton, or linen for millennia, these swaths of fabric are more than just simple garments.</p>
+        <footer class="blockquote-footer"> <cite title="Source Title">Indian woman</cite></footer>
+      </blockquote>
+    </div>
+  </div>
+
+<footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">Saree Store.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+</body>
+</html>
